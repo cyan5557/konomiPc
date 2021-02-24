@@ -231,6 +231,8 @@
                 <li><img src="../assets/logo/logo-wall(3).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(4).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(5).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(6).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(7).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(8).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(9).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(10).png" alt=""></li>
@@ -240,9 +242,11 @@
                 <li><img src="../assets/logo/logo-wall(14).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(15).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(16).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(17).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(18).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(19).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(20).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(21).png" alt=""></li>
                 <li><img src="../assets/logo/logo-wall(22).png" alt=""></li>
               </ol>
           </div>
