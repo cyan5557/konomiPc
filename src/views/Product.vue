@@ -59,14 +59,7 @@
               </svg>
             </div>
           </div>
-<<<<<<< HEAD
           <!-- <div style="color:#333;font-size:14px;text-align:center">lending,trading and asset management<br>Konomi provides the infrastructure for asasets on Polkadot ecosystem</div> -->
-=======
-           <div class="more" @click="handScroll(1)">
-              <span style="color:#333;font-size:14px;">lending,trading and asset management,<br>Konomi provides the infrastructure for <br>assets on Polkadot ecosystem</span>
-              <img src="../assets/arrow-gray.png" alt="">
-            </div>
->>>>>>> 03ff8a4df69b4dc724348a4f48416bd3b0649e7d
       </div>
       <div class="bg-white" id="page1">
         <div class="product-text w1200 pc">
@@ -240,14 +233,7 @@
             </li>
           </ul>
         </div>
-<<<<<<< HEAD
         <!-- <div style="color:#333;font-size:14px;text-align:center">to kick start liquidity and decentralised governance<br>Konomi issuse its native network token</div> -->
-=======
-        <div class="more" @click="handScroll(2)" style="background:#fff">
-          <span style="color:#333;font-size:14px;">to kick start liquidity and decentralised<br>governance,Konomi issues its native<br>network token</span>
-          <img src="../assets/arrow-gray.png" alt="">
-        </div>
->>>>>>> 03ff8a4df69b4dc724348a4f48416bd3b0649e7d
       </div>
       
       <div class="bg-white">
@@ -312,14 +298,9 @@
       </div>
         <div class="bg-white" id="page3">
           <div class="three-tab">
-<<<<<<< HEAD
              <img src="../assets/product4.png" alt="" style="width:100%;margin-bottom:200px;">
             <ul id="p1">
               <li @click="changeTab(1)" :class="tabActive==1?'active':''">
-=======
-            <ul>
-              <li @click="changeTab(1)" :class="tabActive==1?'active1':''">
->>>>>>> 03ff8a4df69b4dc724348a4f48416bd3b0649e7d
                 <img src="../assets/icon6.png" alt="">
                 <div class="product-tab-01">
                   DECENTRALISED<br>GOVERNANCE <img src="../assets/arrow-white.png" alt="">

@@ -30,17 +30,10 @@ body{font-size:1.4rem}
 .header li{display:inline-block;color:#fff;margin-left:20px;font-size:14px;cursor:pointer}
 .header-white{background:#fff;box-shadow:0 0 10px #f2f2f2}
 .header-white li{color:#3650fa}
-<<<<<<< HEAD
 .bg-blue{height:calc(100% - 100px);background:#3650fa;position:relative}
 .bg-white{background:#fff;position:relative;padding:30px 0;}
 .home-banner{position: absolute;top:50%;left:50%;margin-top:-122px;margin-left:-285px;}
 .banner{margin:50px auto;}
-=======
-.bg-blue{height:100%;background:url("../../assets/bg-blue.svg");position:relative}
-.bg-white{background: url("../../assets/maskgroup.svg");position:relative;padding:150px 0;padding-top:100px}
-.bg-white-nb{position:relative;padding:150px 0;padding-top:100px}
-.banner{height:100%}
->>>>>>> 03ff8a4df69b4dc724348a4f48416bd3b0649e7d
 .banner-logo{width:1200px;text-align:center;display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;position:absolute;top:50%;left:50%;margin-left:-600px;margin-top:-165px}
 .banner img{width:100%}
 .banner .a-logo{text-align:center;}
