@@ -33,12 +33,12 @@ body{font-size:1.4rem}
 .bg-blue{height:calc(100% - 100px);background:#3650fa;position:relative}
 .bg-white{background:#fff;position:relative;padding:30px 0;}
 .home-banner{position: absolute;top:50%;left:50%;margin-top:-122px;margin-left:-285px;}
-.banner{margin:50px auto;}
+.banner{margin:100px auto;}
 .banner-logo{width:1200px;text-align:center;display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;position:absolute;top:50%;left:50%;margin-left:-600px;margin-top:-165px}
 .banner img{width:100%}
 .banner .a-logo{text-align:center;}
 .banner-logo .b-logo{width:350px}
-.email{text-align:center;width:100%;margin-top:50px; height:50px}
+.email{text-align:center;width:100%;margin-top:50px;}
 .email span{font-size:16px}
 .email img{width:40px;height:40px;margin:20px auto;display:block}
 .a-link{text-decoration: none;color: #ffffff;font-family: Poppins;font-weight: bold}
@@ -56,7 +56,7 @@ body{font-size:1.4rem}
 .page-two img{width:80px;height:80px;margin:0 20px;cursor:pointer}
 .page-two img:hover{opacity:.5}
 .page-two p{font-weight:bold;font-family:Poppins;text-align:center;margin-bottom:20px}
-.toggle{position:relative;padding-top:5%}
+.toggle{position:relative;padding-top:5%;margin-top:5%;}
 .toggle-content{width:500px;height:500px;margin:0 auto}
 .toggle-content img{width:92px;height:86px;display:block;margin:0 auto}
 .toggle-text{float:right;position:absolute;top:200px;left:50%;margin-left:250px;text-align:left;width:500px}
@@ -64,24 +64,16 @@ body{font-size:1.4rem}
 .toggle-text li::before{content:' ';width:10px;height:10px;float:left;border-radius:50%;margin:8px 20px;background:#3650fa}
 .toggle-text li.active{font-size:20px;margin-left:-20px}
 .toggle-text li.active::before{content:' ';width:0;height:0}
-.blogs{margin-top:200px}
+.blogs{margin-top:150px}
 .blogs ul{display:flex;flex-wrap:nowrap}
-.blogs li{padding:0 10px;width:33.33%}
-.blogs li img{width:100%}
-.blogs li p{text-align:left;font-size:16px;height:150px;margin-top:20px}
-.blogs li div{color:#3650fa;cursor:pointer;display:flex;align-items:center}
-.blogs li div img{width:12px;height:12px;margin-left:10px}
-.blogs .logo-wall{margin:100px 0 0 0;display: flex;flex-wrap: wrap;}
-.blogs .logo-wall li{    
-  background-repeat: no-repeat;
-  background-size: 142px 60px;
-  background-position: center;
-  width: 240px;
-  height: 90px;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border-right: 1px solid #E1E8F1;
-  border-bottom: 1px solid #E1E8F1;}
+.blogs ul li{padding:0 10px;width:33.33%}
+.blogs ul li img{width:100%}
+.blogs ul li p{text-align:left;font-size:16px;height:150px;margin-top:20px}
+.blogs ul li div{color:#3650fa;cursor:pointer;display:flex;align-items:center}
+.blogs ul li div img{width:12px;height:12px;margin-left:10px}
+.blogs .logo-wall{margin:100px 0 0 0;display: flex;flex-wrap: wrap;align-items: center;}
+.blogs .logo-wall li{}
+.blogs .logo-wall li img{display: block;margin:0 10px;transform: scale(.8);}
 .news-letter{margin-top:300px}
 .news-letter svg{width:100%}
 .support{width:100%;text-align:center;margin-top:80px}
@@ -191,7 +183,7 @@ body{font-size:1.4rem}
   .home-banner{margin-left:-118px;margin-top:-150px}
   .header-white .menu_icon{color:#3650fa}
   .mobile_menu .el-submenu__title i{color:#fff}
-  .tit{margin-top:0}
+  /* .tit{margin-top:0} */
   .toggle-text-mobile li{color:#3650fa;font-size:14px;margin-bottom:30px;font-weight:bold;cursor:pointer;text-align:left}
   .toggle-text-mobile li::before{content:' ';width:10px;height:10px;float:left;border-radius:50%;margin:8px 20px;background:#3650fa}
   .toggle-text-mobile li.active{font-size:16px;margin-left:-20px}
@@ -206,7 +198,8 @@ body{font-size:1.4rem}
   .blogs ul{display:flex;flex-wrap:wrap}
   .blogs ul li{width:100%;margin-bottom:30px;padding-bottom:30px;border-bottom:1px solid #f2f2f2}
   .blogs ul li:last-child{margin-bottom:0}
-  .blogs .logo-wall li{width:50%;}
+  .blogs .logo-wall li{width:33%;}
+  .blogs .logo-wall li img{transform: scale(.6);margin: 0 auto;}
   .support{margin-top:0;margin-bottom:80px}
   .footer{height:auto}
   .foot{width:100%;display:flex;flex-wrap:wrap;float:none}
@@ -237,7 +230,6 @@ body{font-size:1.4rem}
   .product-item .f30{width:100%;font-size:22px;top:20px;left:20px}
   .product-item .f16{width:100%;font-size:14px;left: 20px !important;top: 70px !important;width:90%;}
   .blogs .logo-wall{margin:0;}
-  .blogs .logo-wall li:nth-child(odd){border-left: 1px solid #E1E8F1;}
   .foot>div:nth-child(2){margin:0;padding:0;border:0;}
   .foot .find_us_on li{width: 100px;}
 }

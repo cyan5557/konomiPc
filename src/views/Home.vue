@@ -59,12 +59,12 @@
 
             </div>
           </div>
-           <div class="more" @click="handScroll" id="id1">
+           <div class="more" @click="handScroll">
               <span>loarn more about KONOMI</span>
               <img src="../assets/arrow.png" alt="">
             </div>
       </div>
-      <div class="bg-white pc">
+      <div class="bg-white pc" id="id1">
           <div class="toggle w1200">
             <div class="toggle-content">
 
@@ -224,27 +224,26 @@
                 <p>Surely Polkadot is not an obscure topic anymore. To give a brief summary, experts are calling it the future of the internet which is a cryptocurrency project that also aims to decentralize the internet.</p> <div @click="readMore(3)">read more <img src="../assets/arrow-right.png" alt=""></div>
               </li>
             </ul>
+            
               <ol class="logo-wall">
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W58_02f2db1.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W59_bd7821f.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W25_28ad133.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W26_c66eda1.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W27_38b0cd2.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W31_0458aeb.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W33_a9156d1.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W51_e059c15.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W35_7d485ee.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W37_3f3acbf.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W41_845458b.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/TAPTAP_0c392fc.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W13_8362c9a.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W32_aca2703.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W49_2a43bfc.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W44_2e1d695.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W45_88857dc.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W46_1129150.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W28_3663c97.png')"></li>
-                <li style="background-image: url('//sensorsdata.cn/assets/img/logo/W50_8725c6f.png')"></li>
+                <li><img src="../assets/logo/logo-wall(1).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(2).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(3).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(4).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(5).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(8).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(9).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(10).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(11).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(12).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(13).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(14).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(15).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(16).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(18).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(19).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(20).png" alt=""></li>
+                <li><img src="../assets/logo/logo-wall(22).png" alt=""></li>
               </ol>
           </div>
       </div>
