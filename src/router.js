@@ -2,8 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from './views/Home'
 import Product from './views/Product'
-import blog from './views/blog'
-import about from './views/about'
+import Blog from './views/Blog'
+import About from './views/About'
 Vue.use(VueRouter)
 
 let router =new VueRouter({
@@ -14,7 +14,7 @@ let router =new VueRouter({
         name:'home',
         meta: {
             requireAuth: false,  
-            keepAlive:false,
+            keepAlive:true,
             title:"Konomi"
         } 
     },{
@@ -23,26 +23,26 @@ let router =new VueRouter({
         name:'Product',
         meta: {
             requireAuth: false,  
-            keepAlive:false,
+            keepAlive:true,
             title:"Konomi-Product"
         } 
     },{
-        path:'/blog',
-        component:blog,
-        name:'blog',
+        path:'/Blog',
+        component:Blog,
+        name:'Blog',
         meta: {
             requireAuth: false,  
-            keepAlive:false,
-            title:"blog"
+            keepAlive:true,
+            title:"Blog"
         } 
     },{
-        path:'/about',
-        component:about,
-        name:'about',
+        path:'/About',
+        component:About,
+        name:'About',
         meta: {
-            requireAuth: about,  
-            keepAlive:about,
-            title:"about"
+            requireAuth: false,  
+            keepAlive:true,
+            title:"About"
         } 
     }]
 })
